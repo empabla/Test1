@@ -9,12 +9,11 @@ public class Task4 {
                 shortestName = n;
 
         int minLength = shortestName.length();
-        shortestName = "";
-        for (String s : names) {
+        StringBuilder shortest = new StringBuilder();
+        for (String s : names)
             if (s.length() == minLength)
-                shortestName += s + " ";
-        }
-        return shortestName;
+                shortest.append(s).append(" ");
+        return shortest.toString();
     }
 
     public static String longestName(String[] names) {
@@ -24,12 +23,11 @@ public class Task4 {
                 longestName = n;
 
         int maxLength = longestName.length();
-        longestName = "";
-        for (String s : names) {
+        StringBuilder longest = new StringBuilder();
+        for (String s : names)
             if (s.length() == maxLength)
-                longestName += s + " ";
-        }
-        return longestName;
+                longest.append(s).append(" ");
+        return longest.toString();
     }
 
     public static int femaleNamesQty(String[] names) {
