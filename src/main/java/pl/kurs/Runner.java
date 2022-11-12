@@ -62,7 +62,7 @@ public class Runner {
 //        Task4
         System.out.println("Task4");
 
-        String[] names = {"Amelia", "Teodora", "Jakuba", "Agnieszka", "Bartosza", "Filipa", "Marcelina", "Amadeusz",
+        String[] names = {"Amelia", "Teodor", "Jakub", "Agnieszka", "Bartosz", "Filip", "Marcelina", "Amadeusz",
                 "Maja", "Franciszek", "Pelagia", "Maciej", "Zenon", "Zuzanna", "Czesław", "Leon", "Gabriela", "Hela"};
 
         System.out.println("The longest name(s): " + Task4.longestName(names));
